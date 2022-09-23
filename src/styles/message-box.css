@@ -1,0 +1,21 @@
+.message-box{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-radius: 4px;
+    padding: 0.6rem;
+    background-color: rgba(255, 0 , 0, 0.3);
+    width: 96%;
+    height: 25px;
+}
+
+.message-box .close-button,
+.message-box .content{
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.message-box .close-button{
+    cursor: pointer;
+}

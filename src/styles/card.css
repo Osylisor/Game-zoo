@@ -1,0 +1,132 @@
+.card{
+    width: 300px;
+    margin-top: 90px;
+    border: 1px #ddd solid;
+    box-shadow: 5px 5px 10px rgba(0 , 0,  0, 0.3);
+    padding-bottom: 0.6rem;
+    transition: all .3s linear;
+    cursor: pointer;
+   
+}
+
+.card:hover{
+    box-shadow: 5px 5px 40px rgba(0 , 0,  0, 0.3);
+    
+}
+
+.card .game-image{
+    width: 100%;
+    height: 200px;
+    background-color: #ddd;
+}
+
+.card .game-image .img-contain{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card .game-image .img-cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .game-title{
+    width: 100%;
+    max-height: 100px;
+    overflow-x: hidden;
+}
+
+.card .game-title h1{
+    color:rgb(65, 65, 65);
+    font-size: 1.4rem;
+    margin-left: 12px;
+
+}
+
+.card .game-desciption{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y:hidden;
+    max-height: 100px;
+    
+
+
+}
+
+.card .game-desciption p{
+    width: 80%;
+    color: black;
+    font-size: 0.8rem;
+
+}
+
+.card .button-section{
+
+    width: 80%;
+    margin-left: 2.0rem;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.card .button-section .view-btn{
+
+    width:90px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px black solid;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+.card .button-section .view-btn:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.card .button-section .edit-btn{
+
+    width:90px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px aqua solid;
+    border-radius: 4px;
+    color: aqua;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+.card .button-section .edit-btn:hover{
+    background-color: aqua;
+    color: white;
+}
+
+.card .button-section .remove-btn{
+
+    width:90px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px red solid;
+    border-radius: 4px;
+    color: red;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.card .button-section .remove-btn:hover{
+
+    background-color: red;
+    color:white;
+
+}

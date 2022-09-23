@@ -1,0 +1,105 @@
+
+
+/*Styles for sign in form*/
+
+.sign-in-form{
+    width:45%;
+    max-width: 430px;
+    min-width: 250px;
+    box-shadow: 5px 5px 10px rgba(0 , 0,  0, 0.3);
+    padding: 1.3rem 1.5rem;
+    background-color: white;
+    position: relative;
+    
+}
+
+:focus{
+    outline: none;
+}
+
+.sign-in-form input[type = "email"],
+.sign-in-form input[type = "password"],
+.sign-in-form input[type = "text"],
+.sign-in-form input[type = "file"],
+.sign-in-form textarea{
+
+    width: 100%;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px #ccc solid;
+    padding-left: 5px;
+    font-size: 0.8em;
+    margin-top: 0.5rem;
+    margin-bottom: 1.2rem;
+}
+
+
+
+.sign-in-form button{
+    width: 101%;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 40px;
+}
+
+.close-btn{
+    position:absolute;
+    top:0.75rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    color: rgb(92, 89, 89);
+    cursor: pointer;
+    
+}
+
+.delete-form{
+    position: relative;
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0 , 0,  0, 0.3);
+    padding: 1.2rem;
+  
+}
+
+.delete-form .body{
+    max-height: 50px;
+    width: 100%;
+}
+
+.delete-form .btn-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.delete-form .btn-section button:first-child{
+    border: 1px #0c0 solid;
+    border-radius: 4px;
+    background-color: transparent;
+    color:#0c0;
+    width:20%;
+    height: 35px;
+    transition: all 100ms linear;
+}
+
+.delete-form .btn-section button:first-child:hover{
+    background-color: #0c0;
+    color:#fff;
+}
+
+.delete-form .btn-section button:last-child{
+    border: 1px #c00 solid;
+    border-radius: 4px;
+    background-color: transparent;
+    color:#c00;
+    width:20%;
+    height: 35px;
+    transition: all 100ms linear;
+}
+
+.delete-form .btn-section button:last-child:hover{
+    background-color: #c00;
+    color:#fff;
+}

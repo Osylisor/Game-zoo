@@ -1,0 +1,161 @@
+
+
+.sidebar{
+
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0.5rem;
+    z-index: 7;
+    overflow: hidden;
+    transition: all 400ms ease;
+    
+}
+
+.sidebar .profile-section{
+
+    border-bottom: 1px #ddd solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+   
+  
+}
+
+.sidebar .profile-section img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.sidebar .link-section{
+   
+    display: flex;
+    width: 100%;
+    margin-top: 1.4rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+} 
+
+.sidebar .link-section .links{
+
+    list-style: none;
+    margin-top: 1.1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.sidebar .link-section .links .item{
+
+   color: white;
+   width: 80%;
+   margin-top: 12px;
+   
+}
+
+.sidebar .link-section .links .item a{
+
+    color: white;
+    width: 100%;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin-left: 2.8rem;
+    text-align: right;
+    transition: all 0.3s;
+    padding-bottom: 12px;
+    
+ }
+
+ .sidebar .link-section .links .item a:hover{
+    margin-left: 3.4rem;
+ }
+
+ .side-content{
+    margin-left: 250px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+
+
+ .sidebar .link-section .links .selected{
+    border-bottom: 2px white solid;
+ }
+
+
+ /*Style the menu button*/
+
+ .menu{
+    position: fixed;
+    top: 1.2rem;
+    left: 1rem;
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+ }
+
+ .menu .bar{
+    width:100%;
+    height: 4px;
+    background-color: #000;
+ }
+
+ .sidebar .close{
+    position: absolute;
+    display: none;
+    top: 1rem;
+    left: 210px;
+    cursor: pointer;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+ }
+
+.sidebar .close span{
+    font-size: 1.5rem;
+    color:rgb(255, 255, 255);
+
+ }
+
+
+
+ @media(max-width: 600px) {
+
+    .sidebar{
+
+        width: 0;
+
+    }
+
+    .side-content{
+        margin-left: 0;
+    }
+
+    .menu{
+        display: flex;
+    }
+
+    .sidebar .close{
+        display: block;
+    }
+
+
+ }
