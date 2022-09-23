@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Game-zoo/static/css/main.85ff0564.css",
-    "main.js": "/Game-zoo/static/js/main.4254ee9a.js",
+    "main.js": "/Game-zoo/static/js/main.f18314bd.js",
     "static/media/Game Icon.png": "/Game-zoo/static/media/Game Icon.6b10829d96c6b2415ebd.png",
     "static/media/User.png": "/Game-zoo/static/media/User.a8b8f1e7a2393ec5fcb1.png",
     "index.html": "/Game-zoo/index.html",
     "main.85ff0564.css.map": "/Game-zoo/static/css/main.85ff0564.css.map",
-    "main.4254ee9a.js.map": "/Game-zoo/static/js/main.4254ee9a.js.map"
+    "main.f18314bd.js.map": "/Game-zoo/static/js/main.f18314bd.js.map"
   },
   "entrypoints": [
     "static/css/main.85ff0564.css",
-    "static/js/main.4254ee9a.js"
+    "static/js/main.f18314bd.js"
   ]
 }
